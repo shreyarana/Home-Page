@@ -1,0 +1,280 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+		.header{
+			width: 100%;
+			height: 28px;
+			background-color:#e60000;
+		}
+		#text1{
+			color:white;
+			font-size: 15px;
+			margin-left: 1100px;
+			padding: 2px;
+		}
+		.navbar{
+			width: 100%;
+			height: 60px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			overflow: hidden;
+
+			}
+		.navbar a {
+  			float: left;
+  			font-size: 15px;
+  			color: #383838;
+  			text-align: center;
+  			padding: 14px 16px;
+  			text-decoration: none;
+		}
+		#logo{
+			margin-left: 0%;
+			margin-top: -105px;
+			position: relative;
+			size: 95%;
+		}
+		.super_script{
+			color: #e60000;
+		}
+		.text3{
+			margin-left: 160px;
+
+		}
+		.icons{
+			float: right;
+			
+		}
+		.mySlides{
+			display:none
+		}
+		.w3-left, .w3-right, .w3-badge {
+			cursor:pointer
+		}
+		.w3-badge {
+			height:13px;width:13px;padding:0
+		}
+		.winter_collection{
+			border-top: 2px dashed gray;
+			padding: 10px;
+			margin-left: 200px;
+			margin-right: 200px;
+		}
+		.text4{
+
+			float:left;
+			margin-left: 500px;
+    		padding:0 30px 0 30px;
+    		margin:-28px 0 0 300px;
+    		background:#fff;
+			font-size: 25px;
+			color:#888888;
+			text-align: center;
+		}
+		.product{
+			border-top: 2px dashed gray;
+			padding: 20px;
+			margin-left: 200px;
+			margin-right: 200px;
+			
+		}
+		.text5{
+
+			float:left;
+			margin-left: 200px;
+    		padding:0 10px 0 10px;
+    		margin:-38px 0 0 350px;
+    		background:#fff;
+			font-size: 25px;
+			color:#888888;
+			text-align: center;
+		}
+		.exclusive_member{
+			border-top: 2px dashed gray;
+			padding: 10px;
+			margin-left: 200px;
+			margin-right: 200px;
+		}
+		.text6{
+
+			float:left;
+			margin-left: 500px;
+    		padding:0 30px 0 30px;
+    		margin:-28px 0 0 300px;
+    		background:#fff;
+			font-size: 25px;
+			color:#888888;
+			text-align: center;
+		}
+		.blue{
+			background-color: #000033;
+			width: 70%;
+			height: 100px;
+			margin-left: 200px;
+			margin-right: 500px;
+		}
+		.text7{
+			text-align: center;
+			padding:25px;
+			position: relative;
+			color: #FFCC33;
+			font-size: 35px;
+		}
+		.yellow{
+			background-color:#FFCC33 ;
+			width: 70%;
+			height: 200px;
+			margin-left: 200px;
+			margin-right: 500px;
+		}
+		.text8{
+			text-align: center;
+			padding:10px;
+			position: relative;
+			color:#000033; ;
+			font-size: 20px;
+			
+
+		}
+		#leftbox { 
+                float:left;  
+                position: relative; 
+                width:25%; 
+                font-size:15px; 
+                border-right: 1px solid #000033;
+                padding: 45px;
+                
+        } 
+        #middlebox1{ 
+           	float:left;  
+            position: relative;  
+            width:25%; 
+            font-size:15px; 
+            border-right: 1px solid #000033;
+            padding: 45px;
+           
+        } 
+        #middlebox2{ 
+            float:left;  
+            position: relative;  
+            width:25%; 
+            font-size:15px; 
+            border-right: 1px solid #000033;
+            padding: 45px;
+           
+        } 
+        #rightbox{ 
+            float:right; 
+            position: relative;  
+            width:25%; 
+            font-size:15px;
+            padding: 45px;
+            
+        } 
+        .footer{
+        	background-color:#DCDCDC;
+        	width: 100%;
+        	height: 320px;	
+        }
+        #lbox {
+
+                float:left;  
+                position: relative; 
+                width:25%; 
+                font-size:15px; 
+                
+                padding: 45px;
+        } 
+        #mbox1{ 
+           	float:left;  
+            position: relative;  
+            width:25%; 
+            font-size:15px; 
+            
+            padding: 45px;
+
+        } 
+        #mbox2{ 
+            float:left;  
+            position: relative;  
+            width:25%; 
+            font-size:15px; 
+            
+            padding: 45px;
+
+        } 
+        #rbox{ 
+            float:right; 
+            position: relative;  
+            width:25%; 
+            font-size:15px;
+            padding: 45px;
+            color:  #989898;
+
+        } 
+        .heading{
+        	color:#e60000;
+        	font-size: 17px;
+        }
+        a:link {
+  			color: #989898;
+  			text-decoration: none;
+		}
+		a:hover{
+			
+			color: #e60000;
+			text-decoration: none;
+		}
+		#upper{
+
+			color: #e60000;
+			border:1px solid #909090;
+			width: 80%;
+			margin-left: 150px;
+		}
+		#lower{
+			color: #e60000;
+			border:1px solid #909090;
+			width: 80%;
+			margin-left: 150px;
+		}
+		.border{
+			background-color: #DCDCDC;
+			height: 200px;
+			width: 100%;
+		}
+		.solid{
+			border:1px solid;
+			width: 80%;
+			margin-left:100px; 
+			padding: 15px;
+		}
+		
+		.text_in_border{
+			color:#e60000; 
+		}
+		.glyphicon-plus{
+			color: #e60000;
+			float: right;
+
+			
+		}
+		.payment{
+			background-color:  #DCDCDC;
+			height: 200px;
+			width: 100%;
+			
+		}
+		.copyright{
+			background-color:  #DCDCDC;
+			text-align: center;
+			color:#707070;
+		}
+
+		.row{
+			width: 100%;
+			margin-left: 200px;
+			margin-right: 150px;
+		}
+		
+		

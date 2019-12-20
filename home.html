@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<title>The souled store</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+ 	@media only screen and (max-width: 768px) {
+  	/* For mobile phones: */
+  		.header{
+			width: 100%;
+			height: 14px;
+			background-color:#e60000;
+		}
+		#text1{
+			color:white;
+			font-size: 5px;
+			padding: 4px;
+			margin-left: 200px;
+		}
+		.navbar{
+			width: 100%;
+			height: 30px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			overflow: hidden;
+
+			}
+		.navbar a {
+  			float: left;
+  			font-size: 10px;
+  			color: #383838;
+  			text-align: center;
+  			padding: 1px 3px;
+  			text-decoration: none;
+		}
+		#logo{
+			margin-left: 0%;
+			margin-top: -95px;
+			position: relative;
+		}
+		.super_script{
+			color: #e60000;
+		}
+		.text3{
+			margin-left: 170px;
+		}
+		.icons{
+			float: right;
+		}
+  		.winter_collection{
+			border-top: 0.5px dashed gray;
+			padding: 1px;
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+		.text4{
+			float:left;
+			margin-left: 0px;
+    		padding:0 5px 0 5px;
+    		margin:-10px 0 0 95px;
+    		background:#fff;
+			font-size: 10px;
+			color:#888888;
+			text-align: center;
+		}
+		.product{
+			border-top: 0.5px dashed gray;
+			padding: 1px;
+			margin-left: 10px;
+			margin-right: 0px;
+		}
+		.text5{
+			float:left;
+			margin-left: 0px;
+    		padding:0 5px 0 5px;
+    		margin:-10px 0 0 100px;
+    		background:#fff;
+			font-size: 10px;
+			color:#888888;
+			text-align: center;
+		}
+		.exclusive_member{
+			border-top: 0.5px dashed gray;
+			padding: 1px;
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+		.text6{
+			float:left;
+			margin-left: 0px;
+    		padding:0 5px 0 5px;
+    		margin:-10px 0 0 95px;
+    		background:#fff;
+			font-size: 10px;
+			color:#888888;
+			text-align: center;
+		}
+		.blue{
+			background-color: #000033;
+			width: 70%;
+			height: 50px;
+			margin-left: 55px;
+			margin-right: 10px;
+		}
+		.text7{
+			text-align: center;
+			padding:15px;
+			position: relative;
+			color: #FFCC33;
+			font-size: 10px;
+		}
+		.yellow{
+			background-color:#FFCC33 ;
+			width: 70%;
+			height: 80px;
+			margin-left: 55px;
+			margin-right: 10px;
+		}
+		.boxes{
+			height: 500px;
+		}
+		.text8{
+			text-align: center;
+			padding:15px;
+			position: relative;
+			color:#000033; ;
+			font-size: 10px;
+		}
+		#leftbox { 
+            float:left;  
+            position: relative; 
+            width:25%; 
+            font-size:5px; 
+            border-right:1px solid #000033;
+            padding: 0px;
+            margin-top:-15px;
+        } 
+        #middlebox1{ 
+           	float:left;  
+            position: relative;  
+            width:25%; 
+            font-size:5px; 
+            border-right: 1px solid #000033;
+            padding: 0px;
+            margin-top:-15px;
+        } 
+        #middlebox2{ 
+            float:left;  
+            position: relative;  
+            width:25%; 
+            font-size:5px; 
+            border-right: 1px solid #000033;
+            padding: 5px;
+            margin-top: -20px;
+        } 
+        #rightbox{ 
+            float:left;  
+            position: relative;  
+            width:25%; 
+            margin-top: -15px;
+            font-size:5px; 
+            border-right: 0px solid #000033;
+            padding: 0px;
+        } 
+        .footer{
+        	background-color:#DCDCDC;
+        	width: 100%;
+        	height: 320px;	
+        }
+        #lbox {
+        	float:left;  
+            position: relative; 
+            width:25%; 
+           	font-size:7px; 
+            padding: 20px;
+        } 
+        #mbox1{ 
+           	float:left;  
+            position: relative;  
+            width:25%; 
+            font-size:7px; 
+            padding: 20px;
+        } 
+        #mbox2{ 
+            float:left;  
+            position: relative;  
+            width:25%; 
+            font-size:7px; 
+           	padding: 20px;
+        } 
+        #rbox{ 
+            float:right; 
+            position: relative;  
+            width:25%; 
+            font-size:7px;
+            padding: 20px;
+            color:  #989898;
+        }
+        .heading{
+        	color:#e60000;
+        	font-size: 12px;
+        }
+        .border{
+			background-color: #DCDCDC;
+			height: 50px;
+			width: 100%;
+		}
+		.solid{
+			border:1px solid;
+			width: 80%;
+			margin-left:12px; 
+			padding: 5px;
+			margin-top: -70px;
+		}
+		
+		.glyphicon-plus{
+			color: #e60000;
+			float: right;
+			margin-top: -25px;
+		}
+		.copyright{
+			background-color:  #DCDCDC;
+			margin-left: 5px;
+			color:#707070;
+			margin-top:-50px;
+			font-size: 12px;
+		}
+		.text_in_border{
+			color:#e60000; 
+			font-size: 10px
+		}
+		.row{
+			width: 80%;
+			margin-left: 20px;
+			margin-right: 0px;
+		}
+</style>
+</head>
+<body>
+
+	<div class="header">
+		<div id="text1">
+		   <p>TRACK ORDER &nbsp &nbsp CONTACT US</p>
+		</div>
+	</div>
+
+	<div class="navbar">
+			<div class="text3">	
+  			<a href="#"><b>SHOP</b></a>
+  			<a href="#"><b>OFFICIAL MERCH</b></a>
+  			<a href="#"><b>WINTER COLLECTION<sup><span class="super_script">NEW</span></sup></b></a>
+  			<a href="#"><b>EXCLUSIVE<sup><span class="super_script">NEW</span></sup></b></a>
+  			<a href="#"><b>EXCLUSIVE DEALS<sup><span class="super_script">NEW</span></sup></b></a>
+  			</div>
+
+  			<div class="icons">
+  			<span class="glyphicon glyphicon-search" style="font-size: 20px;padding: 10px;"></span>
+  			<span class="glyphicon glyphicon-user" style="font-size: 20px;padding: 10px;"></span>
+  			<span class="glyphicon glyphicon-shopping-cart" style="font-size: 20px;padding: 10px;"></span>
+			</div>
+	</div>
+
+	<div id="logo">
+		<img src="logo.jpg">
+	</div>
+
+
+	<div class="w3-content w3-display-container" style="max-width:100%">
+  		<img class="mySlides" src="image1.jpg" style="width:100%">
+  		<img class="mySlides" src="image2.jpg" style="width:100%">
+  		<img class="mySlides" src="image3.jpg" style="width:100%">
+  		<img class="mySlides" src="image4.jpg" style="width:100%">
+  		<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    	<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    	<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    	<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    	<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    	<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    	<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+  	</div>
+	</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+<br>
+<br>
+<div class="winter_collection">
+	<div class="text4">
+	<b>WINTER COLLECTION</b>
+	</div>	
+	<br>
+	<div class="winter_image">
+		<img src="winter.jpg" width="100%">
+	</div>
+</div>
+<br>
+<br>
+<div class="product">
+	<div class="text5">
+		<b>PRODUCTS</b>
+
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4" style="width: 50%"><img src="tshirts.jpg" width="100%"></div>
+      <div class="col-sm-4" style="width: 50%"><img src="dress.jpg" width="100%"></div>
+     </div>
+      </div>
+    <br><br>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4" style="width: 50%"><img src="jackets.jpg" width="100%"></div>
+      <div class="col-sm-4" style="width: 50%"><img src="vests.jpg" width="100%"></div>
+     </div>
+      </div>
+    <br>
+<br>
+<div class="container-fluid">
+<div class="row">
+      <div class="col-sm-2" style="width: 25%"><img src="notebooks.jpg" width="100%"></div>
+      <div class="col-sm-2" style="width: 25%"><img src="pins.jpg" width="100%"></div>
+      <div class="col-sm-4" style="width: 50%"><img src="boxers.jpg" width="100%"></div>
+      </div>
+    </div>
+   	<br><br>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4" style="width: 50%"><img src="bags.jpg" width="100%"></div>
+      <div class="col-sm-2" style="width: 25%"><img src="socks.jpg" width="100%"></div>
+      <div class="col-sm-2" style="width: 25%"><img src="mugs.jpg" width="100%"></div>
+     </div>
+    </div>
+    <br><br>
+<div class="container-fluid">
+    <div class="row">
+   	<div class="col-sm-2" style="width: 25%"><img src="slippers.jpg" width="100%"></div>
+    <div class="col-sm-2" style="width: 25%"><img src="badges.jpg" width="100%"></div>
+    <div class="col-sm-4" style="width: 50%"><img src="covers.jpg" width="100%"></div>
+</div>
+</div>
+</div>
+    <br><br>
+<div class="exclusive_member">
+	<div class="text6">
+		<b>EXCLUSIVE MEMBERSHIP</b>
+	</div>
+</div>
+<br>
+<div class="blue">
+		<div class="text7">
+				<b>BECOME AN EXCLUSIVE MEMBER NOW!</b>
+			</div>
+		</div>
+		
+		<div class="yellow">
+			<div class="text8">
+				
+				<p><b>BENEFITS</b></p>
+			</div>
+				<div id = "boxes"> 
+          			<div id = "leftbox"> 
+          				
+                	<p><b>DISCOUNTS</b></p>
+            		</div>  
+              
+            		<div id = "middlebox1"> 
+            			
+                	<p><b>EARLY ACCESS</b></p>
+            		</div> 
+
+            		<div id = "middlebox2"> 
+            			
+                	<p><b>PRIORITISED ORDER</b></p>
+            		</div> 
+              
+            		<div id = "rightbox"> 
+            			
+                	<p><b>FREE DELIVERY</b></p>
+            		</div> 
+        		</div> 
+		</div>
+		<br><br><br><br>
+
+
+<div class="footer">
+	<div id="boxes1">
+			<div id="lbox">
+				<span class="heading"><b>NEED HELP</b></span><br><br>
+				<a href=""><b>Contact Us</b></a><br><br>
+				<a href=""><b>FAQs</b></a><br><br>
+				<a href=""><b>Shipping & Tracking</b></a><br><br>
+				<a href=""><b>Return & Exchange</b></a><br><br>
+				<a href=""><b>T&Cs</b></a><br><br>
+			</div>
+
+			<div id="mbox1">
+				<span class="heading"><b>COMPANY</b></span><br><br>
+				<a href=""><b>About Us</b></a><br><br>
+				<a href=""><b>Schools & Colleges</b></a><br><br>
+				<a href=""><b>Bulk & Custom Orders</b></a><br><br>
+				<a href=""><b>Careers</b></a><br><br>
+			</div>
+
+			<div id="mbox2">
+				<span class="heading"><b>MORE INFO</b></span><br><br>
+				<a href=""><b>My Account</b></a><br><br>
+				<a href=""><b>Gift Vouchers</b></a><br><br>
+				<a href=""><b>Souled Army</b></a><br><br>
+				<a href=""><b>Sitemap</b></a><br><br>
+			</div>
+
+			<div id="lbox">
+				<p><i class='fas fa-rupee-sign'>&nbsp &nbsp</i>COD available</p>
+				<p><span class="glyphicon glyphicon-refresh">&nbsp</span>15 Day Easy Returns</p>
+				
+			</div>
+	</div>
+</div>
+	
+	<div class="border">
+		<br>
+		<br>
+		<div class="solid"><span class="text_in_border">NAVIGATION LINKS</span><a href="#">
+         <span class="glyphicon glyphicon-plus"></span>
+        </a></div>
+		
+		<div class="solid"><span class="text_in_border">WHO WE ARE</span><a href="#">
+          <span class="glyphicon glyphicon-plus"></span>
+        </a></div>
+		
+	</div>
+
+	<div class="copyright">
+		<p><b>&copy The Souled Store 2019-20</b></p>
+	</div>
+
+<br>
+<br>
+</body>
+</html>
